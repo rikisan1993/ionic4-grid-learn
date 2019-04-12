@@ -1,1 +1,18 @@
+ion-col {
+    border:1px solid #333;
+    text-align: center;
+}
 
+@media screen and (max-width:1200px) {
+    ion-col:not(:first-child){
+        margin-left:0;
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    ion-col:not(:first-child){
+        margin-left:0;
+        margin-top:16px;
+    }
+}
