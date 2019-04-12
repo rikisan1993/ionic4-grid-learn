@@ -1,0 +1,7 @@
+{
+  "name": "ionic-grid-learn",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
